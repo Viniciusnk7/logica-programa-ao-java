@@ -1,4 +1,4 @@
-package aplication;
+
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class SistemaConsumoCombustivel {
     
 	public static void main(String[] args) {
 	    
-		Locale.setDfault(Locale.US);
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite a distância percorrida: ");
